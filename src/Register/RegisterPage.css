@@ -1,0 +1,33 @@
+.auth-register-from {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.register-input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input {
+  border-color: transparent;
+  border-bottom: 2px gray solid;
+  background-color: rgb(244, 243, 243);
+  padding: 8px 3px;
+  outline: none;
+}
+
+.register-input:focus {
+  border-bottom: 2px black solid;
+}
+
+.register-submit-button {
+  background-color: #2575fc;
+  color: white;
+  margin-top: 1vh;
+}
+
+.register-submit-text {
+  font-size: 20px;
+  margin: 0;
+}
